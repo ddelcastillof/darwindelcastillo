@@ -53,4 +53,4 @@ Welcome to my new site\
 
 I am a medical doctor and a Master of Public Health candidate specializing in Global Health at the University of Washington. I earned my MD in 2021 from the Universidad Nacional Mayor de San Marcos in Lima, Peru. Since 2019, I have been working with the CRONICAS Center of Excellence in Chronic Diseases at the Universidad Peruana Cayetano Heredia in Peru. My research focuses on the link between adverse experiences during pregnancy, the perinatal period, and infancy, and the development of cardiometabolic diseases during youth and young adulthood. \
 
-More info about my CV here: [CV]("xxxx-xxxx-xxxx.com") 
+More info about my CV here: [CV](https://github.com/ddelcastillof/cv/blob/main/cv-ddcf.pdf) 
