@@ -6,14 +6,14 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2024-09-23T04:36:15-07:00"
+      "last_modified": "2024-09-23T06:36:15-05:00"
     },
     {
       "path": "index.html",
       "title": "Darwin Del Castillo",
       "author": [],
       "contents": "\n\n          \n          \n          Darwin Del Castillo\n          \n          \n          CV\n          Publications\n          ☰\n          \n          \n      \n        \n          \n            \n              \n            \n              Darwin Del Castillo\n            \n            \n              \n                \n                    \n                      \n                        \n                      \n                    \n                  \n                                    \n                    \n                      \n                        \n                      \n                    \n                  \n                                    \n                    \n                      \n                        \n                      \n                    \n                  \n                                    \n                    \n                      \n                        \n                      \n                    \n                  \n                                    \n                    \n                      \n                        \n                      \n                    \n                  \n                                    \n                    \n                      \n                        \n                      \n                    \n                  \n                                  \n            \n          \n        \n        \n        \n          \n            Welcome to my new site\n            I am a medical doctor and a Master of Public Health\n            candidate specializing in Global Health at the University of\n            Washington. I earned my MD in 2021 from the Universidad\n            Nacional Mayor de San Marcos in Lima, Peru. Since 2019, I\n            have been working with the CRONICAS Center of Excellence in\n            Chronic Diseases at the Universidad Peruana Cayetano Heredia\n            in Peru. My research focuses on the link between adverse\n            experiences during pregnancy, the perinatal period, and\n            infancy, and the development of cardiometabolic diseases\n            during youth and young adulthood.\n            More info about my CV here: CV\n          \n        \n      \n    \n\n    \n      \n        \n          \n            \n              \n            \n              Darwin Del Castillo\n            \n            \n              \n                \n                                    \n                    \n                      \n                    \n                  \n                                    \n                    \n                      \n                    \n                  \n                                    \n                    \n                      \n                    \n                  \n                                    \n                    \n                      \n                    \n                  \n                                    \n                    \n                      \n                    \n                  \n                                    \n                    \n                      \n                    \n                  \n                                  \n              \n            \n            \n              Welcome to my new site\n              I am a medical doctor and a Master of Public Health\n              candidate specializing in Global Health at the University\n              of Washington. I earned my MD in 2021 from the Universidad\n              Nacional Mayor de San Marcos in Lima, Peru. Since 2019, I\n              have been working with the CRONICAS Center of Excellence\n              in Chronic Diseases at the Universidad Peruana Cayetano\n              Heredia in Peru. My research focuses on the link between\n              adverse experiences during pregnancy, the perinatal\n              period, and infancy, and the development of\n              cardiometabolic diseases during youth and young\n              adulthood.\n              More info about my CV here: CV\n            \n        \n      \n    \n\n    \n    \n    ",
-      "last_modified": "2024-09-23T04:38:20-07:00"
+      "last_modified": "2024-10-13T04:41:30-05:00"
     },
     {
       "path": "teaching.html",
@@ -27,7 +27,7 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n\n\n\n",
-      "last_modified": "2024-09-23T04:36:18-07:00"
+      "last_modified": "2024-09-23T06:36:18-05:00"
     }
   ],
   "collections": []
