@@ -2,8 +2,6 @@
 title: "Darwin Del Castillo"
 image: "images/my-picture.png"
 links:
-  ### - label: 'CV'
-  ####### url: "https://github.com/jhelvy/cv/blob/main/cv-jph.pdf"
   - label: "<i class='fab fa-github fa-lg'></i>"
     url: "https://github.com/ddelcastillof"
   - label: "<i class='fab fa-twitter fa-lg'></i>"
@@ -16,8 +14,7 @@ links:
     url: "https://orcid.org/0000-0002-8609-0312"
   - label: "<i class='far fa-envelope fa-lg'></i>"
     url: "mailto:ddelcast@uw.edu"
-#### base_url: https://ddelcastillo.github.io
-#### favicon: images/favicon.ico
+base_url: https://www.darwindelcastillo.com
 twitter:
   creator: "@justpvalues"
   site: "@justpvalues"
@@ -26,17 +23,22 @@ output:
   postcards::trestles
 ---
 
-```{r setup, message=FALSE, warning=FALSE, include=FALSE}
+```{r setup}
+#| name: setup
+#| message: FALSE
+#| warning: FALSE
+#| include: FALSE
+
 source(file.path("R", "functions.R"))
 library(distilltools)
 library(metathis)
 
-meta() %>%
+meta() |>
   meta_description(
     "The personal website of Darwin Del Castillo"
-  ) %>%
-  meta_name("github-repo" = "ddelcastillof/ddelcastillo") %>%
-  meta_viewport() %>%
+  ) |>
+  meta_name("github-repo" = "ddelcastillof/darwindelcastillo") |>
+  meta_viewport() |>
   meta_social(
     ### title = "jhelvy.com",
     ### url = "https://jhelvy.com/",
@@ -49,8 +51,8 @@ meta() %>%
   )
 ```
 
+<div style="text-align: justify; hyphens: auto;">
 Welcome to my new site\
 
-I am a medical doctor and a Master of Public Health candidate specializing in Global Health at the University of Washington. I earned my MD in 2021 from the Universidad Nacional Mayor de San Marcos in Lima, Peru. Since 2019, I have been working with the CRONICAS Center of Excellence in Chronic Diseases at the Universidad Peruana Cayetano Heredia in Peru. My research focuses on the link between adverse experiences during pregnancy, the perinatal period, and infancy, and the development of cardiometabolic diseases during youth and young adulthood. \
-
-More info about my CV here: [CV](https://github.com/ddelcastillof/cv/blob/main/cv-ddcf.pdf) 
+I am a Peruvian physician-scientist, epidemiologist, data analyst, musician, gamer, and a Master in Public Health candidate at University of Washington, Seattle in the [Department of Global Health](https://globalhealth.washington.edu/). My research focus is to understand the link between adverse experiences during pregnancy, the perinatal period, and infancy, and the development of cardiometabolic diseases during youth and young adulthood.
+</div>

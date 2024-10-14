@@ -1,0 +1,34 @@
+---
+title: Curriculum Vitae
+output:
+  distill::distill_article:
+    toc: true
+twitter:
+  creator: "@justpvalues"
+base_url: https://www.darwindelcastillo.com
+navbar:
+  right:
+    - text: "About"
+      href: about.html
+    - text: "Publications"
+      href: publications.html
+    - text: "Teaching"
+      href: teaching.html
+---
+
+```{r, include=FALSE}
+#| name: setup
+#| message: FALSE
+#| warning: FALSE
+#| include: FALSE
+
+knitr::opts_chunk$set(echo = FALSE)
+source(file.path("R", "functions.R"))
+library(distilltools)
+```
+
+<main class="content" id="quarto-document-content">
+
+<p>Source code to generate CV available on <a href="https://github.com/ddelcastillof/cv" target="_blank" data-original-href="https://github.com/ddelcastillof/cv" rel="noopener">GitHub</a></p>
+<iframe width="780" height="600" src="https://nbviewer.org/github/ddelcastillof/cv/blob/main/cv-ddcf.pdf" title="Information">
+</iframe>
