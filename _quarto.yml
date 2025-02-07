@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Darwin Del Castillo"
+  navbar:
+    right:
+##      - text: "About"
+##        href: about.qmd
+      - text: "CV"
+        href: cv.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+
+format:
+  html:
+    theme: lux
+    css: styles.css
+    toc: true

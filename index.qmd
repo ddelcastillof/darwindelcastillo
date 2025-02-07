@@ -1,0 +1,33 @@
+---
+title: "Darwin Del Castillo"
+image: "images/my-picture.png"
+about:
+  template: marquee
+  image-shape: round
+  image-width: 9em
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/ddelcastillof
+    - icon: cloud
+      text: Bluesky
+      href: https://bsky.app/profile/justpvalues.bsky.social
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/ddelcastillof/
+    - icon: mortarboard-fill
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=iNdNU5QAAAAJ
+    - icon: book
+      text: ORCID
+      href: https://orcid.org/0000-0002-8609-0312
+    - icon: envelope
+      text: Email
+      href: mailto:ddelcast@uw.edu
+---
+
+::: {style="text-align: justify; hyphens: auto;"}
+Welcome to my new site!
+
+I am a Peruvian physician-scientist, epidemiologist, data analyst, musician, gamer, and a Master in Public Health candidate at University of Washington, Seattle in the [Department of Global Health](https://globalhealth.washington.edu/). My research focus is to understand the link between adverse experiences during pregnancy, the perinatal period, and infancy, and the development of cardiometabolic diseases during youth and young adulthood.
+:::

@@ -1,0 +1,76 @@
+---
+title: "Publications"
+title-block-banner: false
+---
+
+```{r }
+#| name: setup
+#| message: false
+#| eval: true
+#| include: true
+#| echo: false
+source("functions.R")
+```
+
+```{r importing pubs}
+#| name: importing pubs
+#| message: false
+#| eval: true
+#| include: true
+#| echo: false
+
+pubs <- get_cv_sheet('pubs') %>%
+  mutate(
+    journal  = ifelse(is.na(journal_abbv), '', paste0(journal_abbv)),
+    number   = ifelse(is.na(number), '', paste0(number, '.')),
+    doi      = ifelse(
+               is.na(doi), '',
+               paste0('Available at: [', doi, '](', 'https://doi.org/', doi, ')')),
+    year     = paste0("(", year, ")"),
+    title    = enquote(title),
+    citation = paste(author, year, title, journal, number, doi)
+  ) %>% 
+  arrange(desc(pub_date))
+```
+
+## Peer-Reviewed Publications
+```{r printing references in pandoc format}
+#| message: false
+#| eval: true
+#| include: true
+#| echo: false
+#| results: asis
+
+make_ordered_list_filtered(pubs, "peer_reviewed")
+```
+
+## Pre-prints
+```{r printing pre-print}
+#| message: false
+#| eval: true
+#| include: true
+#| echo: false
+#| results: asis
+make_ordered_list_filtered(pubs, "working")
+```
+
+## Others
+### Policy Statements, White Papers, Reports
+```{r printing white papers}
+#| message: false
+#| eval: true
+#| include: true
+#| echo: false
+#| results: asis
+make_ordered_list_filtered(pubs, "white_paper")
+```
+
+### Theses
+```{r theses}
+#| message: false
+#| eval: true
+#| include: true
+#| echo: false
+#| results: asis
+make_ordered_list_filtered(pubs, "theses")
+```

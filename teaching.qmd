@@ -1,0 +1,122 @@
+---
+title: "Teaching"
+subtitle: "I teach classes in epidemiology and data science. Ocassionally, I had the opportunity to teach basic sciences and pre-med classes."
+title-block-banner: false
+---
+```{r}
+#| include: false
+#| eval: true
+#| echo: false
+
+source("functions.R")
+```
+## Courses taught at Universidad Nacional Mayor de San Marcos
+```{r}
+#| include: true
+#| eval: true
+#| echo: false
+#| message: false
+
+df <- get_cv_sheet('classes') |> filter(univ == "UNMSM") |>
+    mutate(
+      course = paste0(number, ": ", name),
+      role = type,
+      semester = ifelse(semester == 'Aut20', 'Aut20', semester)
+    ) |> 
+    select(
+      `Sem.` = semester,
+      Course = course,
+      Role = role,
+      Level = level
+    ) 
+
+df |> 
+  kbl(booktabs = TRUE, escape = FALSE, linesep = "")
+```
+
+## Courses taught at University of Washington
+```{r}
+#| include: true
+#| eval: true
+#| echo: false
+#| message: false
+
+df <- get_cv_sheet('classes') |> filter(univ == "UW") |>
+    mutate(
+      course = paste0(number, ": ", name),
+      role = type, 
+      semester = ifelse(semester == 'Spr24', 'Spr24', semester)
+      ) |> 
+    select(
+      `Sem.` = semester,
+      Course = course,
+      Role = role,
+      Level = level
+    ) 
+
+df |> 
+  kbl(booktabs = TRUE, escape = FALSE, linesep = "")
+```
+
+## Other teaching experience
+
+```{r}
+#| include: true
+#| eval: true
+#| echo: false
+#| message: false
+
+teaching <- get_cv_sheet('teaching') |>
+  arrange(desc(date)) |> 
+  mutate(
+    with = ifelse(is.na(with), '', paste0(', with ', with)),
+    title = paste0(enquote(title), with),
+    date = paste0(format(as.Date(date), format = "%b %d, %Y"), '.'),
+    url = ifelse(is.na(url), NA, markdown_url(url)),
+    date = ifelse(is.na(url), date, paste0(date, '. ', url)), 
+    citation = paste(title, host, location, date, sep = '. ')
+  )
+```
+### Seminars
+```{r}
+#| include: true
+#| eval: true
+#| echo: false
+#| message: false
+#| results: asis
+make_ordered_list_filtered(teaching, "seminar")
+```
+
+## Advising
+```{r}
+#| include: true
+#| eval: true
+#| echo: false
+#| message: false
+
+advisees <- get_cv_sheet('advising') |>
+  arrange(date_start) |> 
+  mutate(
+    date = paste0(' (',  date_start, ' to ', date_stop, ').'),
+    citation = ifelse(
+      is.na(title), name, paste0(name, ', ', enquote(title))
+    ),
+    citation = paste0(citation, ', ', institution, ' ', date), 
+    citation = ifelse(
+        is.na(defense_date), citation, 
+        paste0(citation, ' _Defense date: ', defense_date, '_.')
+    )
+  )
+```
+### Undergraduate Students - Current
+```{r}
+#| include: true
+#| eval: true
+#| echo: false
+#| message: false
+#| results: asis
+
+advisees |> 
+  filter(complete == 0) |>
+  make_ordered_list_filtered("ug")
+```
