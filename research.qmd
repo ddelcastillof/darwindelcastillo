@@ -72,5 +72,15 @@ make_ordered_list_filtered(pubs, "white_paper")
 #| include: true
 #| echo: false
 #| results: asis
-make_ordered_list_filtered(pubs, "theses")
+make_ordered_list_filtered(pubs, "thesis")
+```
+
+### Conference Abstracts
+```{r conference}
+#| message: false
+#| eval: true
+#| include: true
+#| echo: false
+#| results: asis
+make_ordered_list_filtered(pubs, "conference")
 ```
