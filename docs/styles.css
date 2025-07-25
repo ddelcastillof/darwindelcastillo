@@ -1,1 +1,46 @@
-/* css styles */
+/* Academic website custom styles */
+
+/* Improve readability with better line spacing */
+.quarto-about-marquee .about-contents {
+  line-height: 1.6;
+}
+
+/* Style the social links */
+.about-links {
+  margin-top: 1.5rem;
+}
+
+.about-links .about-link {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  transition: all 0.2s ease;
+}
+
+.about-links .about-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Better spacing for main content */
+.quarto-title-block {
+  margin-bottom: 2rem;
+}
+
+/* Style tables for CV/publications */
+.table {
+  margin-bottom: 2rem;
+}
+
+.table th {
+  border-top: none;
+  font-weight: 600;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .about-links .about-link {
+    margin-bottom: 0.5rem;
+    display: inline-block;
+  }
+}

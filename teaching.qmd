@@ -19,7 +19,7 @@ source("functions.R")
 
 df <- get_cv_sheet('classes') |> filter(univ == "UNMSM") |>
     mutate(
-      course = paste0(number, ": ", name),
+      course = paste0(name),
       role = type,
       semester = ifelse(semester == 'Aut20', 'Aut20', semester)
     ) |> 
@@ -43,9 +43,34 @@ df |>
 
 df <- get_cv_sheet('classes') |> filter(univ == "UW") |>
     mutate(
-      course = paste0(number, ": ", name),
+      course = paste0(name),
       role = type, 
       semester = ifelse(semester == 'Spr24', 'Spr24', semester)
+      ) |> 
+    select(
+      `Sem.` = semester,
+      Course = course,
+      Role = role,
+      Level = level
+    ) 
+
+df |> 
+  kbl(booktabs = TRUE, escape = FALSE, linesep = "")
+```
+
+## Courses taught at Universidad Cientifica del Sur
+
+```{r}
+#| include: true
+#| eval: true
+#| echo: false
+#| message: false
+
+df <- get_cv_sheet('classes') |> filter(univ == "UCSUR") |>
+    mutate(
+      course = paste0(name),
+      role = type, 
+      semester = ifelse(semester == 'Aut25', 'Aut25', semester)
       ) |> 
     select(
       `Sem.` = semester,
