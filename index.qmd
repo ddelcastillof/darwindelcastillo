@@ -9,13 +9,13 @@ about:
     - icon: github
       text: Github
       href: https://github.com/ddelcastillof
-    - icon: cloud
+    - icon: bluesky
       text: Bluesky
       href: https://bsky.app/profile/justpvalues.bsky.social
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/ddelcastillof/
-    - icon: mortarboard-fill
+    - icon: google
       text: Google Scholar
       href: https://scholar.google.com/citations?user=iNdNU5QAAAAJ
     - icon: book

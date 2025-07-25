@@ -1,54 +1,86 @@
-{
-  "articles": [
-    {
-      "path": "about.html",
-      "title": "About me",
-      "author": [],
-      "contents": "\n\nContents\nShort Bio\nPeru and Latin America\nOutside academia\n\n\nI am a Peruvian physician-scientist, epidemiologist, data analyst, musician, gamer, and a Master in Public Health candidate at University of Washington, Seattle in the Department of Global Health. My research focus is to understand the link between adverse experiences during pregnancy, the perinatal period, and infancy, and the development of cardiometabolic diseases during youth and young adulthood.\nYou can find more info about my background in my CV here: CV\n\nShort Bio\n\nDarwin is a Peruvian Medical Doctor and a Master in Public Health candidate in the Department of Global Health at the University of Washington. His research focuses on understanding how maternal stressors during pregnancy and early life affect long-term cardiometabolic outcomes for children. He has extensive experience in epidemiological data analysis and healthcare data science in R and Stata languages. He speaks fluent Spanish and is trying to push hard to learn French with Duolingo ;). In his free time, he enjoys playing guitar, doing outdoor activities, playing with his two cats, and explore virtual worlds through viodegames. Darwin holds a M.D. from the Universidad Nacional Mayor de San Marcos, the oldest university in the American continent.\n\nPeru and Latin America\n\nDuring his medical training and early life years, Darwin was exposed to diverse underserved populations significantly affected by non-communicable diseases, many of these concurrently. Witnessing firsthand how social disparities ravaged families through limited healthcare access and poor health outcomes fueled his passion to understand the dynamics between social determinants of health and non-communicable diseases. His experiences with various populations across Peru enriched his perspective and reinforced his commitment to addressing health inequities through research.\n\nOutside academia\n\nAn avid cat lover, he cherishes spending time at home with his two Peruvian feline companions. In his free time, he enjoys playing video games and engaging in outdoor activities with his fiancée.\n\n\n\n\n",
-      "last_modified": "2024-10-13T18:19:31-07:00"
-    },
-    {
-      "path": "cv.html",
-      "title": "Curriculum Vitae",
-      "author": [],
-      "contents": "\n\nSource code to generate CV available on GitHub\n\n\n\n\n\n\n",
-      "last_modified": "2024-10-13T18:11:17-07:00"
-    },
-    {
-      "path": "index.html",
-      "title": "Darwin Del Castillo",
-      "author": [],
-      "contents": "\n\n          \n          \n          Darwin Del Castillo\n          \n          \n          About\n          CV\n          Publications\n          Teaching\n          Index\n          ☰\n          \n          \n      \n        \n          \n            \n              \n            \n              Darwin Del Castillo\n            \n            \n              \n                \n                    \n                      \n                        \n                      \n                    \n                  \n                                    \n                    \n                      \n                        \n                      \n                    \n                  \n                                    \n                    \n                      \n                        \n                      \n                    \n                  \n                                    \n                    \n                      \n                        \n                      \n                    \n                  \n                                    \n                    \n                      \n                        \n                      \n                    \n                  \n                                    \n                    \n                      \n                        \n                      \n                    \n                  \n                                  \n            \n          \n        \n        \n        \n          \n            \n            Welcome to my new site!\n            I am a Peruvian physician-scientist, epidemiologist, data\n            analyst, musician, gamer, and a Master in Public Health\n            candidate at University of Washington, Seattle in the Department of\n            Global Health. My research focus is to understand the\n            link between adverse experiences during pregnancy, the\n            perinatal period, and infancy, and the development of\n            cardiometabolic diseases during youth and young\n            adulthood.\n            \n          \n        \n      \n    \n\n    \n      \n        \n          \n            \n              \n            \n              Darwin Del Castillo\n            \n            \n              \n                \n                                    \n                    \n                      \n                    \n                  \n                                    \n                    \n                      \n                    \n                  \n                                    \n                    \n                      \n                    \n                  \n                                    \n                    \n                      \n                    \n                  \n                                    \n                    \n                      \n                    \n                  \n                                    \n                    \n                      \n                    \n                  \n                                  \n              \n            \n            \n              \n              Welcome to my new site!\n              I am a Peruvian physician-scientist, epidemiologist,\n              data analyst, musician, gamer, and a Master in Public\n              Health candidate at University of Washington, Seattle in\n              the Department of\n              Global Health. My research focus is to understand the\n              link between adverse experiences during pregnancy, the\n              perinatal period, and infancy, and the development of\n              cardiometabolic diseases during youth and young\n              adulthood.\n              \n            \n        \n      \n    \n\n    \n    \n    ",
-      "last_modified": "2025-01-27T11:14:27-08:00"
-    },
-    {
-      "path": "publications.html",
-      "title": "Publications",
-      "description": "A new article created using the Distill format.\n",
-      "author": [
-        {
-          "name": "Nora Jones",
-          "url": "https://example.com/norajones"
-        }
-      ],
-      "date": "`r Sys.Date()`",
-      "contents": "\n\n\n\n",
-      "last_modified": "2024-10-13T18:10:51-07:00"
-    },
-    {
-      "path": "teaching.html",
-      "title": "Teaching",
-      "description": "A new article created using the Distill format.\n",
-      "author": [
-        {
-          "name": "Nora Jones",
-          "url": "https://example.com/norajones"
-        }
-      ],
-      "date": "`r Sys.Date()`",
-      "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n\n\n\n",
-      "last_modified": "2024-10-13T18:12:56-07:00"
-    }
-  ],
-  "collections": []
-}
+[
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Sem.\nCourse\nRole\nLevel\n\n\n\n\nSummer 2014\nMH0416: Embryology and Genetics\nTA\nUGrad\n\n\nFall 2014\nMH0416: Embryology and Genetics\nTA\nUGrad\n\n\nFall 2020\nMO009: Biostatistics and Demography\nTA\nUGrad"
+  },
+  {
+    "objectID": "teaching.html#courses-taught-at-universidad-nacional-mayor-de-san-marcos",
+    "href": "teaching.html#courses-taught-at-universidad-nacional-mayor-de-san-marcos",
+    "title": "Teaching",
+    "section": "",
+    "text": "Sem.\nCourse\nRole\nLevel\n\n\n\n\nSummer 2014\nMH0416: Embryology and Genetics\nTA\nUGrad\n\n\nFall 2014\nMH0416: Embryology and Genetics\nTA\nUGrad\n\n\nFall 2020\nMO009: Biostatistics and Demography\nTA\nUGrad"
+  },
+  {
+    "objectID": "teaching.html#courses-taught-at-university-of-washington",
+    "href": "teaching.html#courses-taught-at-university-of-washington",
+    "title": "Teaching",
+    "section": "Courses taught at University of Washington",
+    "text": "Courses taught at University of Washington\n\n\n\n\n\nSem.\nCourse\nRole\nLevel\n\n\n\n\nSpring 2024\nBIOL200: Introduction to Biology\nTA\nUGrad"
+  },
+  {
+    "objectID": "teaching.html#other-teaching-experience",
+    "href": "teaching.html#other-teaching-experience",
+    "title": "Teaching",
+    "section": "Other teaching experience",
+    "text": "Other teaching experience\n\nSeminars\n\n“Introduction to Stata for Biomedical Researchers”. General Office of Research and Technologic Transference, Peruvian National Institute of Health. Lima, Peru. Aug 09, 2021.\n“Analysis of Categorical Data”. General Office of Research and Technologic Transference, Peruvian National Institute of Health. Lima, Peru. Aug 06, 2021."
+  },
+  {
+    "objectID": "teaching.html#advising",
+    "href": "teaching.html#advising",
+    "title": "Teaching",
+    "section": "Advising",
+    "text": "Advising\n\nUndergraduate Students - Current\n\nFátima Sánchez Diaz and Nicole Ravines Layza, “Barriers and facilitators for mental health screening at family planning centers from low-and-middle income countries”, Universidad Cientifica del Sur, Peru (2024 to Present)."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Darwin Del Castillo",
+    "section": "",
+    "text": "Welcome to my new site!\nI am a Peruvian physician-scientist, epidemiologist, data analyst, musician, gamer, and a Master in Public Health candidate at University of Washington, Seattle in the Department of Global Health. My research focus is to understand the link between adverse experiences during pregnancy, the perinatal period, and infancy, and the development of cardiometabolic diseases during youth and young adulthood."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About me",
+    "section": "",
+    "text": "I am a Peruvian physician-scientist, epidemiologist, data analyst, musician, gamer, and a Master in Public Health candidate at University of Washington, Seattle in the Department of Global Health. My research focus is to understand the link between adverse experiences during pregnancy, the perinatal period, and infancy, and the development of cardiometabolic diseases during youth and young adulthood.\nYou can find more info about my background in my CV here: CV\n\n\nShort Bio\n\n\n\nDarwin at a boat with his fiancée\n\n\n\nDarwin is a Peruvian Medical Doctor and a Master in Public Health candidate in the Department of Global Health at the University of Washington. His research focuses on understanding how maternal stressors during pregnancy and early life affect long-term cardiometabolic outcomes for children. He has extensive experience in epidemiological data analysis and healthcare data science in R and Stata languages. He speaks fluent Spanish and is trying to push hard to learn Portugese with Duolingo ;). In his free time, he enjoys playing guitar, doing outdoor activities, playing with his two cats, and explore virtual worlds through videogames. Darwin holds a M.D. from the Universidad Nacional Mayor de San Marcos, the oldest university in the American continent.\n\n\n\nPeru and Latin America\n\n\n\nRainbow Mountain\n\n\n\nDuring his medical training and early life years, Darwin was exposed to diverse underserved populations significantly affected by non-communicable diseases, many of these concurrently. Witnessing firsthand how social disparities ravaged families through limited healthcare access and poor health outcomes fueled his passion to understand the dynamics between social determinants of health and non-communicable diseases. His experiences with various populations across Peru enriched his perspective and reinforced his commitment to addressing health inequities through research.\n\n\n\nOutside academia\n\n\n\nRainbow Mountain\n\n\n\nAn avid cat lover, he cherishes spending time at home with his two Peruvian feline companions. In his free time, he enjoys playing video games and engaging in outdoor activities with his fiancée."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Source code to generate CV available on GitHub"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Bazo-Alvarez, J.C., Del Castillo, D., Piza, L., Bernabe-Ortiz, A., Carrillo-Larco, R.M., Smeeth, L., Gilman, R.H., Checkley, W., Miranda, J.J. (2024) “Multimorbidity patterns, sociodemographic characteristics, and mortality: Data science insights from low-resource settings” kwae466: Online ahead of print. Available at: 10.1093/aje/kwae466\nVidyasagaran, AL., Ayesha, R., Boehnke, JR., […], Del Castillo Fernández, D.,[…], Zavala, GA., Zhao, YW., Siddiqi, N. (2024) “Core outcome sets for trials of interventions to prevent and to treat multimorbidity in adults in low and middle-income countries: the COSMOS study” 9(8):e015120. Available at: 10.1136/bmjgh-2024-015120\nLapidaire, W., Proaño, A., Blumenberg, C., Loret de Mola, C., Delgado, CA., Del Castillo, D., Wehrmeister, FC., Gonçalves, H., Gilman, RH., Oberhelman, RA., Lewandowski, AJ., Wells, JCK., Miranda, JJ. (2023) “Effect of preterm birth on growth and blood pressure in adulthood in the Pelotas 1993 cohort” 25;52(6):1870-1877. Available at: 10.1093/ije/dyad084\nDel Castillo-Fernández, D., Brañez-Condorena, A., Villacorta-Landeo, P., Saavedra-García, L., Bernabé-Ortiz, A., Miranda, JJ. (2021) “[Advances in the investigation of chronic non-communicable diseases in Peru] (in Spanish)” 81(4): 444-452. Available at: 10.15381/anales.v81i4.18798"
+  },
+  {
+    "objectID": "research.html#peer-reviewed-publications",
+    "href": "research.html#peer-reviewed-publications",
+    "title": "Publications",
+    "section": "",
+    "text": "Bazo-Alvarez, J.C., Del Castillo, D., Piza, L., Bernabe-Ortiz, A., Carrillo-Larco, R.M., Smeeth, L., Gilman, R.H., Checkley, W., Miranda, J.J. (2024) “Multimorbidity patterns, sociodemographic characteristics, and mortality: Data science insights from low-resource settings” kwae466: Online ahead of print. Available at: 10.1093/aje/kwae466\nVidyasagaran, AL., Ayesha, R., Boehnke, JR., […], Del Castillo Fernández, D.,[…], Zavala, GA., Zhao, YW., Siddiqi, N. (2024) “Core outcome sets for trials of interventions to prevent and to treat multimorbidity in adults in low and middle-income countries: the COSMOS study” 9(8):e015120. Available at: 10.1136/bmjgh-2024-015120\nLapidaire, W., Proaño, A., Blumenberg, C., Loret de Mola, C., Delgado, CA., Del Castillo, D., Wehrmeister, FC., Gonçalves, H., Gilman, RH., Oberhelman, RA., Lewandowski, AJ., Wells, JCK., Miranda, JJ. (2023) “Effect of preterm birth on growth and blood pressure in adulthood in the Pelotas 1993 cohort” 25;52(6):1870-1877. Available at: 10.1093/ije/dyad084\nDel Castillo-Fernández, D., Brañez-Condorena, A., Villacorta-Landeo, P., Saavedra-García, L., Bernabé-Ortiz, A., Miranda, JJ. (2021) “[Advances in the investigation of chronic non-communicable diseases in Peru] (in Spanish)” 81(4): 444-452. Available at: 10.15381/anales.v81i4.18798"
+  },
+  {
+    "objectID": "research.html#pre-prints",
+    "href": "research.html#pre-prints",
+    "title": "Publications",
+    "section": "Pre-prints",
+    "text": "Pre-prints\n\nMoscoso, MG., Villarreal-Zegarra, D., Del Castillo, D., Zavaleta E., Miranda JJ. (2022) “Personality profiles and engagement with the augmented reality game Pokémon GO: a cross-sectional study [version 1; peer review: 1 approved with reservations]” 7:264. Available at: 10.12688/wellcomeopenres.18397.1"
+  },
+  {
+    "objectID": "research.html#others",
+    "href": "research.html#others",
+    "title": "Publications",
+    "section": "Others",
+    "text": "Others\n\nPolicy Statements, White Papers, Reports\n\nDel Castillo-Fernández D. (2023) “Efficacy and safety of liraglutide for the treatment of patients older than 18 years with moderate obesity without comorbidities and mild obesity associated with comorbidities. Health Technology Assessment – Preliminary Version” IETSI – EsSalud.\n\nDel Castillo-Fernández D. (2023) “Efficacy and safety of ceftazidime-avibactam for the treatment of adult patients with bacteremia due to surgical wound infection by carbapenemase-producing Enterobacteriaceae. Health Technology Assessment – Preliminary Version.” IETSI – EsSalud.\n\nDel Castillo-Fernández D. (2023) “Efficacy and safety of cladribine for the treatment of adult patients with relapsing-remitting multiple sclerosis. Health Technology Assessment – Short Version.” IETSI – EsSalud.\n\n\n\n\nTheses"
+  }
+]
