@@ -4,5 +4,5 @@ title: "Curriculum Vitae"
 
 Source code to generate CV available on [GitHub](https://github.com/ddelcastillof/cv){target="_blank"}
 
-<iframe width="780" height="600" src="https://nbviewer.org/github/ddelcastillof/cv/blob/main/cv-ddcf.pdf" title="Information">
+<iframe width="900" height="600" src="https://nbviewer.org/github/ddelcastillof/cv/blob/main/cv.pdf" title="Information">
 </iframe>

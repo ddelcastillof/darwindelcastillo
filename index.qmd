@@ -18,7 +18,7 @@ about:
     - icon: google
       text: Google Scholar
       href: https://scholar.google.com/citations?user=iNdNU5QAAAAJ
-    - icon: book
+    - icon: orcid
       text: ORCID
       href: https://orcid.org/0000-0002-8609-0312
     - icon: envelope
@@ -29,5 +29,5 @@ about:
 ::: {style="text-align: justify; hyphens: auto;"}
 Welcome to my new site!
 
-I am a Peruvian physician-scientist, epidemiologist, data analyst, musician, gamer, and a Master in Public Health candidate at University of Washington, Seattle in the [Department of Global Health](https://globalhealth.washington.edu/). My research focus is to understand the link between adverse experiences during pregnancy, the perinatal period, and infancy, and the development of cardiometabolic diseases during youth and young adulthood.
+I am a Peruvian physician-scientist, epidemiologist, data analyst, musician, and gamer. My research focus is to understand the distribution of non-communicable diseases, particularly the variablity in diabetic phenotypes.
 :::
