@@ -1,5 +1,19 @@
 /* Academic website custom styles */
 
+/* Hide Bootstrap Icons and show Font Awesome instead */
+.bi { display: none !important; }
+.about-link:before { 
+  font-family: "Font Awesome 7 Brands", "Font Awesome 7 Free"; 
+  font-weight: 900;
+  margin-right: 0.5rem;
+}
+.about-link[href*="github"]:before { content: "\f09b"; }
+.about-link[href*="linkedin"]:before { content: "\f08c"; }
+.about-link[href*="mailto"]:before { content: "\f0e0"; font-family: "Font Awesome 7 Free"; }
+.about-link[href*="scholar.google"]:before { content: "\e63b"; }
+.about-link[href*="orcid"]:before { content: "\f8d2"; }
+.about-link[href*="bsky"]:before { content: "\e671"; }
+
 /* Improve readability with better line spacing */
 .quarto-about-marquee .about-contents {
   line-height: 1.6;
